@@ -13,3 +13,8 @@ c:\백준\git-repo\boj\.cphcsrun\obj\Release\net9.0\refint\.cphcsrun.dll
 c:\백준\git-repo\boj\.cphcsrun\obj\Release\net9.0\.cphcsrun.pdb
 c:\백준\git-repo\boj\.cphcsrun\obj\Release\net9.0\.cphcsrun.genruntimeconfig.cache
 c:\백준\git-repo\boj\.cphcsrun\obj\Release\net9.0\ref\.cphcsrun.dll
+c:\백준\git-repo\boj\boj_2884_bin\.cphcsrun.exe
+c:\백준\git-repo\boj\boj_2884_bin\.cphcsrun.deps.json
+c:\백준\git-repo\boj\boj_2884_bin\.cphcsrun.runtimeconfig.json
+c:\백준\git-repo\boj\boj_2884_bin\.cphcsrun.dll
+c:\백준\git-repo\boj\boj_2884_bin\.cphcsrun.pdb
