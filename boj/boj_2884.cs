@@ -4,24 +4,25 @@ class Program
 {
     static void Main()
     {
-        string[] A = Console.ReadLine().Split();
-        int a= int.Parse(A[0]);
-        int b= int.Parse(A[1]);
-        int c = 60;
+        int T = int.Parse(Console.ReadLine());
         
-        if (b < 45 )
+        for(int i = 0; i < T ; i++)
         {
-            a = a-1;
-            if( a < 0) a = 23;
-            c = b-45+c;
-        }
+            string[] input = Console.ReadLine().Split();
+            int H = int.Parse(input[0]);
+            int W = int.Parse(input[1]);
+            int N = int.Parse(input[2]);
 
-        else
-        {
-            c = b-45;
-        }
+            int floors = N % H;
+            int rooms = N / H + 1;
 
-        Console.Write(a + " " + c);
-        
+            if(floors == 0)
+            {
+                floors = H;
+                rooms = N / H;
+            }
+            
+            Console.WriteLine($"{floors}{rooms:D2}");
+        }
     }
 }
