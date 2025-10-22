@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute(".cphcsrun")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6e050dd8f5a5d16e6de70b74bc723a9f7a58bdb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99266b1ce0e3de25ef9e9d89625886114dd3c987")]
 [assembly: System.Reflection.AssemblyProductAttribute(".cphcsrun")]
 [assembly: System.Reflection.AssemblyTitleAttribute(".cphcsrun")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

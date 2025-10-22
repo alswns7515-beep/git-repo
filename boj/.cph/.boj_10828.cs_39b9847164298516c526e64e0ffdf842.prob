@@ -1,0 +1,1 @@
+{"name":"Local: boj_10828","url":"c:\\백준\\git-repo\\boj\\boj_10828.cs","tests":[{"id":1756822396538,"input":"14\npush 1\npush 2\ntop\nsize\nempty\npop\npop\npop\nsize\nempty\npop\npush 3\nempty\ntop","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\백준\\git-repo\\boj\\boj_10828.cs","group":"local","local":true}

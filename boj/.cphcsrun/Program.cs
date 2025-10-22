@@ -1,35 +1,66 @@
 using System;
+using System.Text;
 
 class Program
 {
     static void Main()
     {
+        int testcounts = int.Parse(Console.ReadLine());
+        int[] que = new int[testcounts];
+        int first = 0;
+        int last = 0;
 
-        int A = int.Parse(Console.ReadLine());
-        int B = int.Parse(Console.ReadLine());
-        int C = int.Parse(Console.ReadLine());
+        StringBuilder sb = new StringBuilder();
 
-        int multiple = A * B * C;
-
-        int[] count = new int[10];
-
-        string st = multiple.ToString();
-        
-        foreach(char c in st)
+        for(int i = 0; i < testcounts ; i++)
         {
-            int digit = c - '0';
-            count[digit]++;
+
+            string[] inputs = Console.ReadLine().Split();
+
+            switch(inputs[0])
+            {
+                case "push" :
+                que[last++] = int.Parse(inputs[1]);
+                break;
+
+                case "pop" :
+                if(first == last)
+                sb.AppendLine("-1");
+
+                else
+                sb.AppendLine(que[first++].ToString());
+                break;
+
+                case "size" :
+                sb.AppendLine((last - first).ToString());
+                break;
+
+                case "empty" :
+                if(first == last)
+                sb.AppendLine("1");
+
+                else
+                sb.AppendLine("0");
+                break;
+
+                case "front" :
+                if(first == last)
+                sb.AppendLine("-1");
+                
+                else
+                sb.AppendLine(que[first].ToString());
+                break;
+
+                case "back" :
+                if(first == last)
+                sb.AppendLine("-1");
+
+                else
+                sb.AppendLine(que[last-1].ToString());
+                break;
+                
+            }
         }
-
-        for( int i = 0; i < 10 ; i ++)
-        {
-            Console.WriteLine(count[i]);
-        }
-        
-        
-
-
-
+        Console.WriteLine(sb.ToString());
     }
 }
-

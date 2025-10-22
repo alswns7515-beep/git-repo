@@ -25,11 +25,6 @@ class Program
         {
             Console.WriteLine(count[i]);
         }
-        
-        
-
-
-
     }
 }
 

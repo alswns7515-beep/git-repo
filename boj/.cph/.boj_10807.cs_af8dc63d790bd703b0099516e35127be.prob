@@ -1,0 +1,1 @@
+{"name":"Local: boj_10807","url":"c:\\백준\\git-repo\\boj\\boj_10807.cs","tests":[{"id":1756361577849,"input":"11\n1 4 1 2 4 2 4 2 3 4 4\n2","output":""},{"id":1756361583342,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\백준\\git-repo\\boj\\boj_10807.cs","group":"local","local":true}
